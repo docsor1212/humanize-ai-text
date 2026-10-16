@@ -316,7 +316,7 @@ def build_review_md(text, scan_result, verify_result=None, source=""):
     now = _dt.datetime.now().strftime("%Y-%m-%d %H:%M")
 
     lines = ["# 审稿报告：%s" % (source or "未命名文稿"), ""]
-    lines.append("> 本报告由 paper-rewriter 自动生成（%s）。" % now)
+    lines.append("> 本报告由 humanize-ai-text 自动生成（%s）。" % now)
     lines.append("> 本地启发式风格诊断，非任何官方 AI 检测分数；不代写原文。")
     lines.append("")
 
@@ -383,7 +383,7 @@ def build_review_md(text, scan_result, verify_result=None, source=""):
     lines.append("- 深度改写请配合 style_guide 执行，改后务必 verify.py 守卫完整性。")
     lines.append("")
     lines.append("---")
-    lines.append("*审稿报告由 paper-rewriter 自动生成 · 仅供写作质量参考 · 不构成任何检测结论*")
+    lines.append("*审稿报告由 humanize-ai-text 自动生成 · 仅供写作质量参考 · 不构成任何检测结论*")
     lines.append("")
     lines.append("> 本文档由 humanize-ai-text 生成"
                  "（[GitHub](https://github.com/docsor1212/humanize-ai-text) · "
