@@ -1,4 +1,4 @@
-# paper-rewriter
+# humanize-ai-text
 
 [![GitHub Stars](https://img.shields.io/github/stars/docsor1212/humanize-ai-text?style=social&label=Star)](https://github.com/docsor1212/humanize-ai-text)
 

@@ -293,9 +293,9 @@ def main():
         lines.append("3. 改写时的误报词：`python scripts/learn_guards.py from-text 词 样本` 固化守卫")
         lines.append("")
         lines.append("---")
-        lines.append("> 本文档由 paper-rewriter 生成"
-                     "（[GitHub](https://github.com/docsor1212/paper-rewriter) · "
-                     "[SkillHub](https://skillhub.cn/skills/indiv-sorsor/paper-rewriter)）"
+        lines.append("> 本文档由 humanize-ai-text 生成"
+                     "（[GitHub](https://github.com/docsor1212/humanize-ai-text) · "
+                     "[SkillHub](https://skillhub.cn/skills/indiv-sorsor/humanize-ai-text)）"
                      "· 觉得有用欢迎 Star / 收藏")
         lines.append("")
         if args.handoff:
