@@ -2,7 +2,7 @@
 
 [![GitHub Stars](https://img.shields.io/github/stars/docsor1212/humanize-ai-text?style=social&label=Star)](https://github.com/docsor1212/humanize-ai-text)
 
-> **Current: v5.13.0** — see `scripts/hxt_core.py` (`__version__`) and per-release notes on the GitHub Releases page; in-package verification: `python scripts/selfcheck.py`.
+> **Current: v5.14.0** — see `scripts/hxt_core.py` (`__version__`) and per-release notes on the GitHub Releases page; in-package verification: `python scripts/selfcheck.py`.
 
 Bilingual (CN/EN) style naturalization for academic & medical writing: find stiff,
 templated or machine-flavored patterns, clean mechanical debris, revise for clarity
