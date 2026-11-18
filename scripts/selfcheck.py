@@ -205,7 +205,7 @@ def main():
     npass = sum(1 for _, ok, _ in RESULTS if ok)
     nfail = len(RESULTS) - npass
     print("═" * 46)
-    print("SUMMARY: %d PASS / %d FAIL（paper-rewriter v%s 包内自检）"
+    print("SUMMARY: %d PASS / %d FAIL（humanize-ai-text v%s 包内自检）"
           % (npass, nfail, hxt_core.__version__))
     if as_json:
         print(json.dumps({

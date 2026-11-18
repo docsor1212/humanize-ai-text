@@ -20,7 +20,7 @@ detect / transform / pipeline 接受 `--lexicon 文件`：与内置词表**同�
 默认权重 1.0、词族 custom；文件不可读时响亮报错。用途：
 
 - 团队/学科自定义词族不进发布包（升级不丢）；
-- **多 skill 共享同一外部词表文件（单一来源）**——paper-rewriter 与 paper-polisher
+- **多 skill 共享同一外部词表文件（单一来源）**——humanize-ai-text 与 paper-polisher
   约定同一 JSON schema 后，两边 `--lexicon 同一路径` 即共享，无需同步包内副本；
 - term_guards 条目字段为 `term` / `allow_before` / `allow_after`（与内置守卫同构）。
 
